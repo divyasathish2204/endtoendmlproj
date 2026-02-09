@@ -12,7 +12,7 @@ from src.components.data_transformation import DataTransformationConfig
 from src.components.model_trainer import ModelTrainerConfig 
 from src.components.model_trainer import ModelTrainer
 
-from src.utills import save_object
+from src.utills import save_object, load_object, evaluate_models
 from warnings import filterwarnings
 filterwarnings('ignore')
 from dataclasses import dataclass
